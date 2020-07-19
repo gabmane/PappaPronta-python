@@ -1,4 +1,4 @@
-class Pattern:
+class Pattern(object):
     """The Pattern class
     
     The Pattern class is the base class for all sequencing objects.

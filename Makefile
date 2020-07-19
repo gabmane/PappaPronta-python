@@ -4,4 +4,7 @@ TESTDIR=test
 all: tests
 
 tests:
-	$(PYTHON) $(TESTDIR)/**/*_test.py
+	for f in $(TESTDIR)/**/*_test.py; do\
+		echo "Testing $$f:";\
+		$(PYTHON) $$f;\
+	done
