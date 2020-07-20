@@ -8,7 +8,7 @@ class Sequence(Pattern):
     It has all the methods from its parent class, Pattern.
     """
 
-    def __init__(self, at, dur, values):
+    def __init__(self, at, dur, values = []):
         super(Sequence, self).__init__(at, dur)
         self.values = values
         self.setup()
