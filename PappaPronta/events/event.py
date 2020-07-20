@@ -17,3 +17,6 @@ class Event(object):
 
     def end(self):
         return self.at + self.dur
+
+    def output(self):
+        return "Event: action time %8.4f, dur %8.4f" % (self.at, self.dur)
