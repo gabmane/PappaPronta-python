@@ -19,7 +19,7 @@ fury and desperation against his own students.
 In order to use the `PappaPronta` package, you need to have the following
 `python` packages installed:
 
-* `pathtools` 
+* `pathtools` (should come already with your `python` distribution) 
 
 ## LICENSE
 
